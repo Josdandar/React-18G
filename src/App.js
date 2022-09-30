@@ -27,7 +27,7 @@ function App() {
         <Title text="Hi i am a title"/>
         <FullName firstName="Jose" lastName="Rivera"/>
         
-        <button onClick={()=> handleClick(switchStatus)}> + </button>
+        <button onClick={()=> handleClick(switchStatus)}> SWITCH </button>
         <div className={statusClass}>{switchStatus}</div>
       </header>
     </div>
