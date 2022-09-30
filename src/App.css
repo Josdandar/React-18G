@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+.active{
+  color: blue;
+}
+
+.inactive{
+  color: white;
+}
+
+.statusOff{
+  height: 100px;
+  width: 100px;
+  background-color: #61dafb;
+  border: 5px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statusOn{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 5px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  height: 20px;
+  width: 25px;
+  margin: 10px;
+  background-color: gold;
+  border-radius: 5px;
+}
